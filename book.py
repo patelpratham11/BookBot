@@ -9,7 +9,11 @@ def initial():
     if not os.path.exists(folder):
         os.makedirs(folder)
     books = os.listdir(folder)
+    for book in books:
 
+    info(folder)
+
+def info(folder):
     email = input("input your email here with @gmail at the end. \ne.g. janedoe@gmail.com\n")
     password = input("input your password here\n")
     rec = input("what is the input email address?\n")
