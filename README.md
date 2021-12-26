@@ -8,7 +8,11 @@
   ### Dependency Installation ###
   - Within a set virtual env ([venv](https://docs.python.org/3/library/venv.html)), pip install those dependencies
   - Be sure to have the venv running while executing this code
-
+    * Though if you clone this repo, you can just navigate to that folder and run...
+      ```
+      source BookBot/bin/activate
+      ```
+      ...and you can use the venv that I have created. 
 ## Pre-Usage ##
 1. Clone this repository
 ```
